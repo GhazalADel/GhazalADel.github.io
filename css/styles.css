@@ -4,6 +4,9 @@
     --home-yellow-color: #c19247;
     --home-red-color: #be393b;
     --home-blue-color: rgba(95, 185, 232, 0.5);
+    --box-white-first: #fffaf2;
+    --box-white-second: #f8f6f1;
+    --yellow-border: #bfa376;
 }
 
 * {
@@ -101,7 +104,7 @@ header {
 }
 
 .experience-box {
-    background: linear-gradient(to bottom, #fffaf2, #f8f6f1);
+    background: linear-gradient(to bottom, var(--box-white-first), var(--box-white-second));
     border-radius: 16px;
     padding: 20px;
     width: 95%;
@@ -169,7 +172,7 @@ header {
 }
   
 .experience-box-frame {
-    border: 4px solid #bfa376;
+    border: 4px solid var(--yellow-border);
     border-radius: 12px;
     padding: 30px 20px;
     margin: 40px auto;
@@ -205,7 +208,7 @@ header {
 }
 
 .project-box {
-    background: linear-gradient(to bottom, #fffaf2, #f8f6f1);
+    background: linear-gradient(to bottom, var(--box-white-first), var(--box-white-second));
     border-radius: 16px;
     padding: 20px;
     width: 95%;
@@ -233,7 +236,7 @@ header {
 }
   
 .projects-box-frame {
-    border: 4px solid #bfa376;
+    border: 4px solid var(--yellow-border);
     border-radius: 12px;
     padding: 30px 20px;
     margin: 40px auto;
@@ -416,6 +419,6 @@ header {
 }
   
 .cv-button:hover {
-    background-color: #9e2f30;
+    background-color: var(--home-red-color);
     transform: translateY(-2px);
 }
