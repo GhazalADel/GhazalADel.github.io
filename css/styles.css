@@ -1,0 +1,18 @@
+:root {
+    --text-color: #4E342E;
+    --bg-color: #FAF5EB;
+    --home-yellow-color: #c19247;
+    --home-red-color: #be393b;
+    --home-blue-color: rgba(95, 185, 232, 0.5);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: Arial, sans-serif;
+}
